@@ -11,7 +11,7 @@ newmtl _Metal_Corrogated_Shiny_1
 Ka 0.000000 0.000000 0.000000
 Kd 0.905882 0.741176 0.250980
 Ks 0.330000 0.330000 0.330000
-map_Kd __Metal_Corrogated_Shiny_1.jpg
+map_Kd ./__Metal_Corrogated_Shiny_1.jpg
 
 newmtl Material__1
 Ka 0.000000 0.000000 0.000000
