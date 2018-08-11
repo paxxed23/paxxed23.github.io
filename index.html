@@ -3,10 +3,12 @@
 <body style=’margin : 0px; overflow: hidden;’>
 	<a-scene embedded arjs='sourceType: webcam;'>
         <!-- Adding an OBJ file to an AR Project-->
-        <a-entity obj-model="obj: url(./domoAR.obj); mtl: url(./domoAR.mtl)"> </a-entity>
+        <a-entity 
+		  position="0.5 -2 -0.5"
+		  scale ="0.10 0.10 0.10"
+		  obj-model="obj: url(./domoAR.obj); mtl: url(./domoAR.mtl)"> </a-entity>
 		
   <a-entity camera>
 	    
   </a-entity>
-		<a-marker-camera type='pattern' url='https://www.cc.gatech.edu/projects/ael/projects/projectpics/artoolkit.jpg'></a-marker-camera>
-  </a-scene>
+ </a-scene>
